@@ -31,3 +31,8 @@ _Template for adding webpack bundler_
 
 1. Add rule to the `webpack.config.js`: ![doc/step4-1.png](doc/step4-1.png)
 2. Add image to the application (`index.js`): ![doc/step4-2.png](doc/step4-2.png)
+
+## Step 5 -- Adding modules
+
+1. Add module `print.js`: ![doc/step5-1.png](doc/step5-1.png)
+2. Add new module to the application (`index.js`): ![doc/step5-1.png](doc/step5-2.png)
