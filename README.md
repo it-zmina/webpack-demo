@@ -20,9 +20,14 @@ _Template for adding webpack bundler_
 1. Add `webpack.config.js` file to the project root folder: ![doc/step2-1.png](doc/step2-1.png)
 2. Update `scripts` section at the `package.json`: ![doc/step2-2.png](doc/step2-2.png)
 
-## Step 3 -- Add styles loader
+## Step 3 -- Loading Styles
 
 1. Install style loader as dev dependency: `npm install --save-dev style-loader css-loader`
 2. Add file with styles: ![doc/step3-1.png](doc/step3-1.png)
 3. Import file with style and change `<div>` element class property at the `index.js`: ![doc/step3-2.png](doc/step3-2.png)
 4. Update `webpack.config.js`: ![doc/step3-3.png](doc/step3-3.png)
+
+## Step 4 -- Loading Images
+
+1. Add rule to the `webpack.config.js`: ![doc/step4-1.png](doc/step4-1.png)
+2. Add image to the application (`index.js`): ![doc/step4-2.png](doc/step4-2.png)
