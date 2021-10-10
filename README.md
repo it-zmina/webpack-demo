@@ -36,3 +36,9 @@ _Template for adding webpack bundler_
 
 1. Add module `print.js`: ![doc/step5-1.png](doc/step5-1.png)
 2. Add new module to the application (`index.js`): ![doc/step5-1.png](doc/step5-2.png)
+
+## Step 6 -- Adding HtmlWebpackPlugin
+
+1. Install HtmlWebpackPlugin as dev dependency: `npm install --save-dev html-webpack-plugin`
+2. Remove `index.html` file from `dist` folder.
+3. Add plugin to the `webpack.config.js` and clean `dist` folder before deploy: ![doc/step6-1.png](doc/step6-1.png)
